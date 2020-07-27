@@ -3,7 +3,6 @@ import React from "react";
 function Results(props) {
     return (
         <tbody>
-            {/* Creates table row for each employee */}
             {props.results.map(employee => (
                 <tr>
                     <td><img src={employee.image.medium} alt={employee.name}></img></td>

@@ -7,6 +7,8 @@ import Table from "../components/table";
 import Search from '../components/search';
 import Wrapper from "../components/wrapper";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
 class Directory extends Component {
     state = {
         employees: [],
@@ -79,6 +81,7 @@ class Directory extends Component {
                     <Table sortTable={this.sortTable} />
                     <Results results={this.state.filtered} />
                 </table>
+                <Footer />
             </Wrapper>)
 
     }
