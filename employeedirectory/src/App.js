@@ -1,5 +1,5 @@
 import React from "react";
-import Directory from "./components/directory.js";
+import Directory from "./page/directory";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
