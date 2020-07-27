@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Searchbar(props) {
+function Search(props) {
     return (
         <div className="searchbar">
             <form onSubmit={props.ignoreSubmit} className="form-inline">
@@ -16,4 +16,4 @@ function Searchbar(props) {
     )
 }
 
-export default Searchbar;
+export default Search;
